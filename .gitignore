@@ -1,0 +1,28 @@
+# Virtual environments & legacy workspace folders
+venv/
+.venv/
+Posture-Detection-ComputerVision/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# macOS, IDE & local agent artifacts
+.DS_Store
+.vscode/
+.idea/
+.agents/
+
+# Temporary and local test videos outside assets/
+temp_input.mp4
+*.mp4
+*.mov
+*.avi
+!assets/*.mp4
+!assets/*.mov
+!assets/*.avi
+!assets/**/*.mp4
+!assets/**/*.mov
+!assets/**/*.avi
